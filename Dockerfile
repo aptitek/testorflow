@@ -1,6 +1,5 @@
-FROM python:3.11-alpine
+FROM tensorflow
 
-RUN pip install --no-cache-dir tensorflow
 COPY ${PWD} /app
 WORKDIR /app
 
