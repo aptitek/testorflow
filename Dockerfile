@@ -1,4 +1,4 @@
-FROM tensorflow
+FROM tensorflow/tensorflow
 
 COPY ${PWD} /app
 WORKDIR /app
